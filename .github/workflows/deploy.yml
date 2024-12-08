@@ -1,5 +1,4 @@
-jobs:
-  test:
+
     name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
